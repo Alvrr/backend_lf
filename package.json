@@ -1,12 +1,17 @@
 {
   "name": "backend_lf",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js"
+  "description": "Leaflet Notes API Backend",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=9.x"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["leaflet", "notes", "api", "express", "mongodb"],
   "author": "",
   "license": "ISC",
   "dependencies": {
