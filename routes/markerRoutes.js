@@ -1,5 +1,5 @@
 const express = require("express");
-const Marker = require("./models/Marker");
+const Marker = require("../models/Marker");
 const router = express.Router();
 
 // CREATE (POST)
